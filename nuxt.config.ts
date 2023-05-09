@@ -3,5 +3,8 @@ export default defineNuxtConfig({
     modules: [
         '@vant/nuxt'
     ],
-    ssr: false, //When false
+    ssr: true, //When false
+    experimental:{
+        payloadExtraction:false
+    }
 })
