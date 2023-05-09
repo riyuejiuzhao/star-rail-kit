@@ -3,4 +3,5 @@ export default defineNuxtConfig({
     modules:[
         '@vant/nuxt'
     ],
+    ssr:false
 })
